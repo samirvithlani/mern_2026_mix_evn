@@ -1,0 +1,23 @@
+index.html -->main.jsx ->app.jsx
+
+
+BANKING APP:
+Compona based arch:
+Func diff compononets
+ProductList -->
+Login -->
+Signup
+Cart
+
+2 type compononets are there
+class based compononets:1 to 16 v
+function based compononets:aftter 16.x --> functional component:
+
+how to create cust... compononets:
+
+Component name must starts with App:
+Es7 +
+
+
+export const ---> import  {}braces
+export default --> import without {} braces
