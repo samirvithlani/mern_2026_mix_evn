@@ -5,6 +5,7 @@ import viteLogo from "/vite.svg";
 import { HeaderComponent } from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
 import { ContentComponent } from "./components/ContentComponent";
+import { ConditinalStylingDemo1 } from "./components/ConditinalStylingDemo1";
 
 function App() {
  
@@ -12,8 +13,9 @@ function App() {
   return (
     <div>
       <HeaderComponent></HeaderComponent>
-      <ContentComponent></ContentComponent>
-      <FooterComponent></FooterComponent>
+      <ConditinalStylingDemo1></ConditinalStylingDemo1>
+      {/* <ContentComponent></ContentComponent> */}
+      {/* <FooterComponent></FooterComponent> */}
     </div>
   );
 }

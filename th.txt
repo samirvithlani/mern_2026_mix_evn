@@ -21,3 +21,13 @@ Es7 +
 
 export const ---> import  {}braces
 export default --> import without {} braces
+conditional styling:
+
+ter:
+?:
+
+logicalop 
+
+firstcond && "excute"
+components --> Conditional.jsx
+app.jsx --> comment other component
