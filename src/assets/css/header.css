@@ -1,0 +1,9 @@
+.header{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    height: 180px;
+    width: 100%;
+    position: sticky;
+    margin-bottom: 20px;
+}
