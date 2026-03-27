@@ -6,6 +6,8 @@ import { HeaderComponent } from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
 import { ContentComponent } from "./components/ContentComponent";
 import { ConditinalStylingDemo1 } from "./components/ConditinalStylingDemo1";
+import { MapDemo1 } from "./components/MapDemo1";
+import { MapDemo2 } from "./components/MapDemo2";
 
 function App() {
  
@@ -13,7 +15,9 @@ function App() {
   return (
     <div>
       <HeaderComponent></HeaderComponent>
-      <ConditinalStylingDemo1></ConditinalStylingDemo1>
+      <MapDemo2></MapDemo2>
+      {/* <MapDemo1></MapDemo1> */}
+      {/* <ConditinalStylingDemo1></ConditinalStylingDemo1> */}
       {/* <ContentComponent></ContentComponent> */}
       {/* <FooterComponent></FooterComponent> */}
     </div>
