@@ -29,6 +29,7 @@ import { Student } from "./components/Student";
 import { TableDemo } from "./components/TableDemo";
 import { InputDemo1 } from "./components/InputDemo1";
 import { InputDemo2 } from "./components/InputDemo2";
+import { FormDemo1 } from "./components/forms/FormDemo1";
 
 function App() {
  
@@ -51,6 +52,7 @@ function App() {
           <Route path="/tabledemo" element={<TableDemo/>}></Route>
           <Route path="/inputdemo1" element = {<InputDemo1/>}></Route>
           <Route path="/inputdemo2" element = {<InputDemo2/>}></Route>
+          <Route path="/formdemo1" element = {<FormDemo1/>}></Route>
           {/* <Route path="/watch" element = {<Watch/>}></Route> */}
           {/* <Route path="/watch/dhurandhar" element = {<Watch/>}></Route> */}
           <Route path="/watch/:name" element = {<Watch/>}></Route>

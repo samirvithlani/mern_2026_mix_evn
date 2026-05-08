@@ -114,3 +114,11 @@ task:
 india ---> dropdown =--> india state
 hint: take nested array :
 
+npm i react-hook-form
+
+
+handleSubmit = (fun)=>{
+    //data proces --regiter.. --{}
+
+    fun(data)
+}
