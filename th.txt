@@ -122,3 +122,8 @@ handleSubmit = (fun)=>{
 
     fun(data)
 }
+
+
+{/* give lable sellect country in dropdown and it should be disabled */}
+            {/* checkbox implmentation  output map*/}
+            {/* create 1 more form of this kind having 10 fileds min */}

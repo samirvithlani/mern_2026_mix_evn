@@ -6,7 +6,7 @@ export const FormDemo1 = () => {
   const [userData, setuserData] = useState({});
   //register: to register input we can use it
   //handleSubmit : to handle submit event and process dat will use ..
-  
+
   const submitHandler = (data) => {
     //data --  {}
 
@@ -31,6 +31,18 @@ export const FormDemo1 = () => {
           <input type="radio" value="male" {...register("gender")}></input>
           FEMALE:{" "}
           <input type="radio" value="female" {...register("gender")}></input>
+        </div>
+        <div>
+            {/* give lable sellect country in dropdown and it should be disabled */}
+            {/* checkbox implmentation  output map*/}
+            {/* create 1 more form of this kind having 10 fileds min */}
+            <label>SELECT COUNTRY</label>
+            <select {...register("country")}>
+                <option value="india">INDIA</option>
+                <option value="china">CHINA</option>
+                <option value="russia">RUS</option>
+
+            </select>
         </div>
         <div>
           <input type="submit"></input>

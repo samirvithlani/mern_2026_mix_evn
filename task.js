@@ -12,3 +12,4 @@ var users2 = users.map((user)=>{
     return {id:user.id,name:user.name.toUpperCase()}
 })
 console.log(users2)
+
