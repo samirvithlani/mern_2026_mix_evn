@@ -24,10 +24,10 @@ export const Navbar = () => {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <Link class="nav-link" to="/netflixhome">
-                Netflix Home 
+                Netflix Home
               </Link>
             </li>
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/netflixmovies">
                 Netflix Movies
               </Link>
@@ -51,7 +51,7 @@ export const Navbar = () => {
               <Link class="nav-link" to="/usestatedemo2">
                 USE STATE DEMO 2
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item active">
               <Link class="nav-link" to="/usestatedemo3">
                 USE STATE DEMO 3
@@ -82,18 +82,17 @@ export const Navbar = () => {
                 inputdemo2
               </Link>
             </li>
-            
+
             <li class="nav-item active">
               <Link class="nav-link" to="/formdemo1">
                 formdemo1
               </Link>
             </li>
-            
-            
-            
-            
-            
-            
+            <li class="nav-item active">
+              <Link class="nav-link" to="/formdemo2">
+                formdemo2
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
