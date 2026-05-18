@@ -11,7 +11,7 @@ export const FormDemo4 = () => {
     handleSubmit,
     formState: { errors },
 
-  } = useForm();
+  } = useForm({mode:"all"}); //onChange onSubmit onBlur all
   const submitHandler = (data)=>{
     console.log(data)
   }
