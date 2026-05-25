@@ -16,12 +16,14 @@ export const FormDemo5 = () => {
   const password = watch("password") //it should match with register
 
   const validationSchema = {
+
     confirmPasswordValidator:{
         validate:(params)=>{
                 //params == confirmPassword
             return params == password || "password does not match"
         }
-    }
+    },
+    
   }
   
   return (
