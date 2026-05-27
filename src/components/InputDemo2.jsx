@@ -5,6 +5,7 @@ export const InputDemo2 = () => {
   const [gender, setgender] = useState("");
   const [selectedDate, setselectedDate] = useState("")
   const [result, setresult] = useState("")
+  
   const dateHandler = (e)=>{
     console.log(e.target.value)
     const value = e.target.value

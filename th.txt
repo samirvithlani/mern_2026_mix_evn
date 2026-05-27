@@ -123,6 +123,12 @@ handleSubmit = (fun)=>{
     fun(data)
 }
 
+handleSubmit = (fun)=>{
+    //regsiter data process json add
+    fun(data)
+}
+
+
 
 {/* give lable sellect country in dropdown and it should be disabled */}
             {/* checkbox implmentation  output map*/}
