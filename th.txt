@@ -147,3 +147,27 @@ handleSubmit = (fun)=>{
                 message:"name is required*"
             }
 }
+
+
+react hoook form:
+7 validation 
+1) required
+2)min
+3)max
+4)minLenght
+5)maxLength
+6)pattern
+7)validate
+
+
+{
+    required:{
+        value:true,message:"Name is required*"
+        }
+}
+{
+        required:{
+            value:true,
+            message:"email is required"
+        }
+}
