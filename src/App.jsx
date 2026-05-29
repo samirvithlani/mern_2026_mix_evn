@@ -37,6 +37,7 @@ import { FormDemo5 } from "./components/forms/FormDemo5";
 import { FormDemo6 } from "./components/forms/FormDemo6";
 import { FormDemo1b } from "./components/forms/FormDemo1b";
 import { FormDemo2b } from "./components/forms/FormDemo2b";
+import { ApiDemo1 } from "./components/api/ApiDemo1";
 
 function App() {
  
@@ -67,6 +68,7 @@ function App() {
            <Route path="/formdemo6" element = {<FormDemo6></FormDemo6>}></Route>
            <Route path="/formdemo1b" element ={<FormDemo1b/>}></Route>
            <Route path="/formdemo2b" element= {<FormDemo2b/>}></Route>
+           <Route path="/apidemo1" element ={<ApiDemo1/>}></Route>
           {/* <Route path="/watch" element = {<Watch/>}></Route> */}
           {/* <Route path="/watch/dhurandhar" element = {<Watch/>}></Route> */}
           <Route path="/watch/:name" element = {<Watch/>}></Route>

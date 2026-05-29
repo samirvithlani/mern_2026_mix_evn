@@ -171,3 +171,109 @@ react hoook form:
             message:"email is required"
         }
 }
+
+API CALLING:
+Application Prog interface
+
+diff tech :
+fw : react/android
+
+Database connection : no dynamic data
+static [] -->database -->react /andorind--> possible
+middle layer --> Backedn-->data fetch --> frontend data
+
+Assume Backedn -->java/python/js --> Androd / react js
+                -->java -->method --> react directly call?
+                -->java --> connection ---> react call
+                               URL
+                 -->url -->website open..
+                 -->url --> data pass -->
+                 --->url --->react --->data
+
+
+china --> chinese/mand  --> transl..
+
+List -->react iterate..
+dict -->react --->
+
+
+XML --> use SOAP Api
+JSON -->Rest Api [web services]
+
+as frontend developer api consume:
+as backend developer api produce
+
+
+2 diff tech commu -->API
+
+google -->ahm weather --> Weather API -->
+AI inte -->gemni openapi -->intergration
+--------------------------->>>>>>>>>>>
+
+form --> GET POST
+data operation : insert update delete read :-> CRUD
+
+URL --> operation --->Decide -->
+API Request method:
+backend developer will decide request method according to requirement:
+
+
+zomato : google map -->api --->url -->
+google will decide :www.xyx.com -->api -->request method
+
+
+4 request method:
+
+GET:
+POST:
+PUT:
+DELETE:
+
+Backend developer:
+GET: will fetch data from database and send data to frontend
+POST: will fetch data from frontend [form] ->send to database and save it..
+PUT: it will use for update data:
+DELETE: it will use for delete data ..
+
+frontend developer:
+GET: when data needs to display
+POST: form -->data -->database -
+PUT: frontend data update:
+...
+
+API -->call --->response
+response --> immidiate???
+        -->slow[inter slow, sys slow, traffic web site]
+
+API --->1000 record  id-- --> call -->1 sec
+print        undefine
+
+SYNC:
+api -->data -->
+wait..
+
+Promise:async await..
+
+API CALL -->
+js -->fetch
+
+3rd party lib :
+AXIOS
+
+only get api can call from browser:
+other api request need tool or frontend framework
+
+
+npm i axios
+
+api doc:
+url request method response
+
+URL:https://node5.onrender.com/user/user/
+GET:
+response :[{}] :_id,name,email,age,isActive,password
+
+
+homework:
+https://dummyjson.com/products
+:GET
