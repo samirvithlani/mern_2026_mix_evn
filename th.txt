@@ -283,3 +283,12 @@ https://node5.onrender.com/user/user/
 
     return <li>{user.name} ----- {user.age}</li>
 table          
+
+http://www.omdbapi.com/?apikey=[yourkey]&
+?apikey=ajbsusassaa
+&
+
+query params
+
+http://www.omdbapi.com/?apikey=ahcbshjbasj&s=dhurandhar
+
