@@ -139,6 +139,11 @@ export const Navbar = () => {
                 omdbsearch
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/useeffectdemo1">
+                useeffectdemo1
+              </Link>
+            </li>
             
             
             

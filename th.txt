@@ -292,3 +292,25 @@ query params
 
 http://www.omdbapi.com/?apikey=ahcbshjbasj&s=dhurandhar
 
+
+create bitton detail -->on click movieDetail
+hint use Link to 
+
+movieDetail comp --> url -->
+send imdb id -->url
+movieDetail -->useParams()
+
+
+http://www.omdbapi.com/?apikey=[yourkey]&i=imdb
+
+
+useEffect:
+to handle side effect in react js we can use useEffect hook:
+
+process --> depedent -->process
+chat -->
+
+100 chat --> 
+
+
+Loader:

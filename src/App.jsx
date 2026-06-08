@@ -40,6 +40,7 @@ import { FormDemo2b } from "./components/forms/FormDemo2b";
 import { ApiDemo1 } from "./components/api/ApiDemo1";
 import { ApiDemo2 } from "./components/api/ApiDemo2";
 import { OmdbSearch } from "./components/api/OmdbSearch";
+import { UseEffectDemo1 } from "./components/UseEffectDemo1";
 
 function App() {
  
@@ -73,6 +74,7 @@ function App() {
            <Route path="/apidemo1" element ={<ApiDemo1/>}></Route>
            <Route path="/apidemo2" element = {<ApiDemo2/>}></Route>
            <Route path="/omdbsearch" element ={<OmdbSearch/>}></Route>
+           <Route path="/useeffectdemo1" element ={<UseEffectDemo1/>}></Route>
           {/* <Route path="/watch" element = {<Watch/>}></Route> */}
           {/* <Route path="/watch/dhurandhar" element = {<Watch/>}></Route> */}
           <Route path="/watch/:name" element = {<Watch/>}></Route>
