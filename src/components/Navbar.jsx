@@ -144,6 +144,17 @@ export const Navbar = () => {
                 useeffectdemo1
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo3">
+                apidemo3
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo4">
+                apidemo4
+              </Link>
+            </li>
+            
             
             
             

@@ -314,3 +314,23 @@ chat -->
 
 
 Loader:
+
+
+REQUEST method:
+POST : https://node5.onrender.com/user/user/
+
+req.body -->json
+
+{
+    name,email,age,isActive,password
+}
+
+response :
+
+backend -->user table : 
+
+get -->100 useParams
+post -->user table data create --->101
+
+GET : -->user
+POSt : -->USERS
