@@ -334,3 +334,28 @@ post -->user table data create --->101
 
 GET : -->user
 POSt : -->USERS
+
+
+DELETE API: 
+URl https://node5.onrender.com/user/user/id
+request method : delete
+
+
+create button on every row..
+loop
+delete on click -->function -->deletUser ->param id
+alert..
+
+inside -->logic
+
+call delete api
+
+
+
+npm i react-toastify
+https://fkhadra.github.io/react-toastify/introduction/
+
+add toastcontainer in app.js
+
+import required components
+replace alert with toast

@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Loader } from '../Loader'
+import { toast } from 'react-toastify'
 
 export const ApiDemo1 = () => {
 
@@ -31,6 +32,18 @@ export const ApiDemo1 = () => {
     getUsers()
   },[])
 
+  const deleteUser = async(id)=>{
+    //alert(id)
+    const res = await axios.delete(`https://node5.onrender.com/user/user/${id}`)
+    console.log(res) // axios object
+    //status
+    if(res.status==204){
+      //alert("user deleted..")
+      toast.success("user deleted !")
+      getUsers() //agian it will call get api --> updated records
+    }
+  }
+
   return (
     <div style={{textAlign:"center"}}>
         <h1>API DEMO 1</h1>
@@ -45,12 +58,34 @@ export const ApiDemo1 = () => {
         }
         
         {/* <button onClick={getUsers}>GET</button> */}
-        {
-          //user -{}
-          users.map((user)=>{
-            return <li>{user.name} ----- {user.age}</li>
-          })
-        }
+       <table className='table table-dark'>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>AGE</th>
+                <th>STATUS</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                users.map((user)=>{
+                  return<tr>
+                    <td>{user._id}</td>
+                    <td>{user.name}</td>
+                    <td>{user.email}</td>
+                    <td>{user.age}</td>
+                    <td>{user.isActive?"active":"NOt active"}</td>
+                    <td>
+                      <button onClick={()=>{deleteUser(user._id)}} className='btn btn-danger'>DELETE</button>
+                    </td>
+                  </tr>
+                })
+              }
+            </tbody>
+       </table>
     </div>
   )
 }
