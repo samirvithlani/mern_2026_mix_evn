@@ -7,9 +7,9 @@ export const ApiDemo3 = () => {
   const addUser = async () => {
     //hardcoded object create..
     const userObj = {
-      name: "vansh1",
+      name: "kunal",
       age: 20,
-      email: "vansh1@gmail.com",
+      email: "kunal1@gmail.com",
       password: "vansh123",
       isActive: true,
     };

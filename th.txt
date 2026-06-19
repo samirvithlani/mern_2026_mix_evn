@@ -359,3 +359,22 @@ add toastcontainer in app.js
 
 import required components
 replace alert with toast
+
+POST: https://node5.onrender.com/product/create
+
+{
+      "name": "tshirt",
+      "price": 5432,
+      "description": "xdfgchjk",
+      "colors": [
+        "Green"
+      ],
+      "size": "m",
+      "isAvailable": true,
+      "unit": 2
+},
+
+size = m,l,s,xl
+
+
+CreateProduct:form -->post 
