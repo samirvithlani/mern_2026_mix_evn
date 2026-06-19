@@ -44,6 +44,7 @@ import { UseEffectDemo1 } from "./components/UseEffectDemo1";
 import { ApiDemo3 } from "./components/api/ApiDemo3";
 import { ApiDemo4 } from "./components/api/ApiDemo4";
 import { Bounce, ToastContainer } from "react-toastify";
+import { CreateProduct } from "./components/api/CreateProduct";
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
         <Route path="/useeffectdemo1" element={<UseEffectDemo1 />}></Route>
         <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
         <Route path="/apidemo4" element={<ApiDemo4 />}></Route>
+        <Route path="/createproduct" element = {<CreateProduct/>}></Route>
         {/* <Route path="/watch" element = {<Watch/>}></Route> */}
         {/* <Route path="/watch/dhurandhar" element = {<Watch/>}></Route> */}
         <Route path="/watch/:name" element={<Watch />}></Route>

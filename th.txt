@@ -378,3 +378,10 @@ size = m,l,s,xl
 
 
 CreateProduct:form -->post 
+
+
+ "colors": [
+        "Green"
+      ],
+
+checkbox..
