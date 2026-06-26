@@ -385,3 +385,70 @@ CreateProduct:form -->post
       ],
 
 checkbox..
+
+
+<------------------------>
+
+console.log(res.data.data) -->token
+-->
+localstorage.setItem("token",res.data.data)
+
+-------------------------------------------->
+Navbar.jsx  --> 
+funciton 
+
+logoutHandler =()=>{
+    localstorage.clear() // 
+    navigate("/login") //check your url in app.js
+}
+
+<li class="nav-item active">
+              <button onClick={logoutHandler}>LOGOUT</button>
+</li>
+
+localstorag -->token
+Component Item:
+
+
+const res = await axios.get("https://node5.onrender.com/item/",{
+      headers:{
+        "Authorization":`Bearer ${localStorage.getItem("token")}`
+      }
+    })
+
+
+update: --> Component  --->form -->old data -->update--->
+-------------------->>>>>>>
+
+Create component UpdateUser.jsx
+create url of above component
+<Route path="/updateuser/:id" element ={<UpdateUser/>}></Route>
+
+goto apidemo1 component -->besides delete button create Link
+<Link to={`/updateuser/${user._id}`} className='btn btn-warning'>UPDATE</Link>
+
+get id from url using useParams()
+const id = useParams().id;
+
+create form --->
+call get api in from defaultValues
+
+  const{register,handleSubmit}=useForm({defaultValues:async()=>{
+    const res = await axios.get(`https://node5.onrender.com/user/user/${id}`) //getuser by id-->
+    console.log("data...",res.data.data)
+    // return {
+    //   name:res.data.data.name,
+    //   age:res.data.data.age,
+    //   email:res.data.data.email
+    //   //25..
+    // }
+    return res.data.data //{whole object}
+  }})
+
+calll put api in submitHandler --> check error and remove _id from object
+check status ==200
+apply toast and navigate
+
+
+
+
