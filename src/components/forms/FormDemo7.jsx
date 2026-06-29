@@ -36,6 +36,7 @@ export const FormDemo7 = () => {
                 <input type='submit'></input>
             </div>
         </form>
+        
         <div>
             <button className='btn btn-primary' onClick={()=>{append({name:"",dosage:0,freq:0})}}>ADD MORE</button>
         </div>
