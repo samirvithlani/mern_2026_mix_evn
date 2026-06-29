@@ -46,6 +46,7 @@ import { ApiDemo4 } from "./components/api/ApiDemo4";
 import { Bounce, ToastContainer } from "react-toastify";
 import { CreateProduct } from "./components/api/CreateProduct";
 import { UpdateUser } from "./components/api/UpdateUser";
+import { FormDemo7 } from "./components/forms/FormDemo7";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
         <Route path="/formdemo4" element={<FormDemo4 />}></Route>
         <Route path="/formdemo5" element={<FormDemo5 />}></Route>
         <Route path="/formdemo6" element={<FormDemo6></FormDemo6>}></Route>
+        <Route path="/formdemo7" element={<FormDemo7 />}></Route>
         <Route path="/formdemo1b" element={<FormDemo1b />}></Route>
         <Route path="/formdemo2b" element={<FormDemo2b />}></Route>
         <Route path="/apidemo1" element={<ApiDemo1 />}></Route>

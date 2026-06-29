@@ -7,6 +7,7 @@ import { toast } from 'react-toastify';
 export const UpdateUser = () => {
   const id = useParams().id;
   const navigate = useNavigate()
+  
   //const{register,handleSubmit}=useForm({defaultValues:{name:"test",age:0,email:"janhsiojsb"}})
   const{register,handleSubmit}=useForm({defaultValues:async()=>{
     const res = await axios.get(`https://node5.onrender.com/user/user/${id}`) //getuser by id-->
