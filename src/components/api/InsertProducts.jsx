@@ -77,10 +77,11 @@ export const InsertProducts = () => {
             <div>
                 <input type='submit'></input>
             </div>
-         </form>
-         <div>
-            <button onClick={()=>{append({name:"",price:0,description:"",colors:[],unit:0,size:"",isAvailable:true})}}>ADD</button>
+             <div>
+            
          </div>
+         </form>
+        <button onClick={()=>{append({name:"",price:0,description:"",colors:[],unit:0,size:"",isAvailable:true})}}>ADD</button>
     </div>
   )
 }

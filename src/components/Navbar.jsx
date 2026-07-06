@@ -169,6 +169,17 @@ export const Navbar = () => {
                 insertproduct
               </Link>
           </li>
+          <li class="nav-item active">
+              <Link class="nav-link" to="/mobile">
+                mobile
+              </Link>
+          </li>
+          <li class="nav-item active">
+              <Link class="nav-link" to="/WaterFlow">
+                WaterFlow
+              </Link>
+          </li>
+          
           
             
             

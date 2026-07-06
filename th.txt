@@ -450,5 +450,9 @@ check status ==200
 apply toast and navigate
 
 
+context:
+Props --> parent comp  -->child inheritance
+A --> B --->C 
+props drliing..
 
 

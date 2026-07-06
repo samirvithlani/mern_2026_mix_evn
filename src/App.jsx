@@ -48,6 +48,8 @@ import { CreateProduct } from "./components/api/CreateProduct";
 import { UpdateUser } from "./components/api/UpdateUser";
 import { FormDemo7 } from "./components/forms/FormDemo7";
 import { InsertProducts } from "./components/api/InsertProducts";
+import { Mobile } from "./components/Mobile";
+import { WaterFlow } from "./components/WaterFlow";
 
 function App() {
   return (
@@ -100,6 +102,8 @@ function App() {
         <Route path="/createproduct" element = {<CreateProduct/>}></Route>
         <Route path="/updateuser/:id" element ={<UpdateUser/>}></Route>
         <Route path="/insertproduct" element ={<InsertProducts/>}></Route>
+        <Route path="/mobile" element ={<Mobile/>}></Route>
+        <Route path="/waterflow" element = {<WaterFlow/>}></Route>
         {/* <Route path="/watch" element = {<Watch/>}></Route> */}
         {/* <Route path="/watch/dhurandhar" element = {<Watch/>}></Route> */}
         <Route path="/watch/:name" element={<Watch />}></Route>
