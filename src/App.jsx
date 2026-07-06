@@ -50,8 +50,12 @@ import { FormDemo7 } from "./components/forms/FormDemo7";
 import { InsertProducts } from "./components/api/InsertProducts";
 import { Mobile } from "./components/Mobile";
 import { WaterFlow } from "./components/WaterFlow";
+import { ThemeContext } from "./ThemeContext";
 
 function App() {
+
+  const [theme, settheme] = useState("light")
+
   return (
     <div>
       <ToastContainer
@@ -68,6 +72,8 @@ function App() {
         transition={Bounce}
       />
 
+      <ThemeContext.Provider value={{theme,settheme}}>
+        <div style={{backgroundColor:theme=="dark"?"black":"white",color:theme=="dark"?"white":"black"}}>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<HomeComponent />}></Route>
@@ -109,6 +115,8 @@ function App() {
         <Route path="/watch/:name" element={<Watch />}></Route>
         <Route path="/*" element={<Error404 />}></Route>
       </Routes>
+      </div>
+      </ThemeContext.Provider>
     </div>
   );
 }
