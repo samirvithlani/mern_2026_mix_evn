@@ -7,9 +7,8 @@ import { BrowserRouter } from 'react-router-dom'
 //DOM --> CHANGE --> copy --> virtual --> DOM
 //-->js --> vdom --> og dom compare --> cahnges --> og dom
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>,
+  
 )

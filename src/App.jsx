@@ -51,6 +51,8 @@ import { InsertProducts } from "./components/api/InsertProducts";
 import { Mobile } from "./components/Mobile";
 import { WaterFlow } from "./components/WaterFlow";
 import { ThemeContext } from "./ThemeContext";
+import { UseMemoDemo } from "./components/UseMemoDemo";
+import { FindBomb } from "./components/FindBomb";
 
 function App() {
 
@@ -110,6 +112,8 @@ function App() {
         <Route path="/insertproduct" element ={<InsertProducts/>}></Route>
         <Route path="/mobile" element ={<Mobile/>}></Route>
         <Route path="/waterflow" element = {<WaterFlow/>}></Route>
+        <Route path="/usememodemo" element = {<UseMemoDemo/>}></Route>
+        <Route path="/findbomb" element ={<FindBomb/>}></Route>
         {/* <Route path="/watch" element = {<Watch/>}></Route> */}
         {/* <Route path="/watch/dhurandhar" element = {<Watch/>}></Route> */}
         <Route path="/watch/:name" element={<Watch />}></Route>
